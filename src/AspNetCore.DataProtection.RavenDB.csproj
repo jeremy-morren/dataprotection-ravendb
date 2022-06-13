@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>8.0</LangVersion>
+        <IsPackable>true</IsPackable>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="2.2.0" />
+        <PackageReference Include="RavenDB.Client" Version="4.0.0" />
+    </ItemGroup>
+    
+    <PropertyGroup>
+        <PackageId>AspNetCore.DataProtection.RavenDB</PackageId>
+        <Authors>Jeremy Morren</Authors>
+        <Description>Support for storing keys using RavenDB</Description>
+        <PackageTags>aspnetcore, dataprotection, ravendb</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+</Project>

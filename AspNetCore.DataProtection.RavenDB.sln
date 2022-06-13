@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.DataProtection.RavenDB", "src\AspNetCore.DataProtection.RavenDB.csproj", "{3C825235-112A-404A-BFB2-7E38C897DCD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.DataProtection.RavenDB.Tests", "tests\AspNetCore.DataProtection.RavenDB.Tests\AspNetCore.DataProtection.RavenDB.Tests.csproj", "{3EA4A634-B486-43BE-9186-CF440693C526}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C825235-112A-404A-BFB2-7E38C897DCD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C825235-112A-404A-BFB2-7E38C897DCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C825235-112A-404A-BFB2-7E38C897DCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C825235-112A-404A-BFB2-7E38C897DCD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA4A634-B486-43BE-9186-CF440693C526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA4A634-B486-43BE-9186-CF440693C526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA4A634-B486-43BE-9186-CF440693C526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA4A634-B486-43BE-9186-CF440693C526}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
